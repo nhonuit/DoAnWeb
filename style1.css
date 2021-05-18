@@ -1,0 +1,42 @@
+#main-nav ul {
+    background: whitesmoke;
+    list-style-type: none;
+    text-align: center;
+  }
+  #main-nav li {
+    color: black;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: -5px;
+  }
+  .logo
+  {
+    margin-left: 15%;
+  }
+  #main-nav a {
+    text-decoration: none;
+    color:black;
+    display: block;
+  }
+  #main-nav a:hover {
+    background:#1F568B;;;
+    color:white;
+  }
+  .sub-menu li {
+    display: none;
+  }
+  #main-nav li {
+    position: relative;
+   }   
+   .sub-menu {
+    display: none;
+    position: absolute; 
+   }
+   #main-nav li:hover .sub-menu {
+    display: block;
+   }
+   .sub-menu li {
+    margin-left: -50px !important;
+   }
