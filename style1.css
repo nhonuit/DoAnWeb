@@ -11,7 +11,11 @@
     line-height: 40px;
     margin-left: -5px;
   }
-
+#footer
+{ 
+  margin-left: 70%;
+  margin-bottom: 1%;
+}
   .logo
   {
     margin-left: 0%;
@@ -41,4 +45,7 @@
    }
    .sub-menu li {
     margin-left: -20px !important;
+   }
+   .form{     
+     padding: 10px;
    }
