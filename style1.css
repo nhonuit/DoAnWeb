@@ -11,9 +11,10 @@
     line-height: 40px;
     margin-left: -5px;
   }
+
   .logo
   {
-    margin-left: 15%;
+    margin-left: 0%;
   }
   #main-nav a {
     text-decoration: none;
@@ -26,6 +27,7 @@
   }
   .sub-menu li {
     display: none;
+    text-align: left;
   }
   #main-nav li {
     position: relative;
@@ -38,5 +40,5 @@
     display: block;
    }
    .sub-menu li {
-    margin-left: -50px !important;
+    margin-left: -20px !important;
    }
