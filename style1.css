@@ -1,3 +1,6 @@
+.container{
+  background-image: url(background.jpg);
+}
 #main-nav ul {
     background: whitesmoke;
     list-style-type: none;
@@ -11,10 +14,8 @@
     line-height: 40px;
     margin-left: -5px;
   }
-#footer
-{ 
-  margin-left: 70%;
-  margin-bottom: 1%;
+.khoahocnoibat{
+  text-align: center;
 }
   .logo
   {
@@ -46,6 +47,60 @@
    .sub-menu li {
     margin-left: -20px !important;
    }
+   .slider-frame{
+     overflow: hidden;
+     margin-left: 150px;
+     height: 400px;
+     width: 1200px;
+    margin-bottom: 0px;
+   }
+.loiich
+{
+  text-align: center;
+}
+   @-webkit-keyframes slide_animation{
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:1200px;}
+    30% {left:1200px;}
+    40% {left: 2400px;}
+    50% {left: 2400px;}
+    60% {left: 1200px;}
+    70% {left: 1200px;}
+    80% {left: 0px;}
+    90% {left: 0px}
+    100% {left: 0px}
+  }
+    
+    .slide-images{
+      width: 3600px;
+      height:500px;
+      margin: 0 0 0 -2400px;
+      position: relative;
+      -webkit-animation-name: slide_animation;
+      -webkit-animation-duration: 33s;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-play-state: running;
+    }
+    
+    .img-container{
+    height: 500px;
+    width: 1200px;
+    position: relative;
+    float: left;
+    }
+   
+   
    .form{     
      padding: 10px;
    }
+   #footer
+{ margin-top: 200px;
+  margin-left: 1000px;
+  margin-bottom: 1%;
+}
+.icon_logo{
+  margin-top: 110px;
+  width: 1100px;
+  margin-left: 350px;
+}
