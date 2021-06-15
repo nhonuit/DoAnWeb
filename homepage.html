@@ -7,19 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <link rel="stylesheet" type="text/css" href="style1.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
     <title>UIPath</title>
 </head>
 
 <body>
 
-    <div class="container">
+    <div class="header">
         <div class="row header" style="display: inline-block;">
             <div class="logo" style="display: inline-block;">
                 <img src="logo_red.png" height="15%" width="15%">
             </div>
-            <div id="sign" style="display: inline-block;">
-                <a href="signin.html">Đăng nhập</a>
-                <a href="signup.html">Đăng kí</a>
+            <div class="sign" style="display: inline-block;">
+                
+                <a href="signin.html" class="btn btn-success"><i class="fas fa-sign-in-alt"></i>  Đăng nhập</a><br>
+               
+                <a href="signup.html" class="btn btn-success"> <i class="fas fa-sign-in-alt"></i>  Đăng kí  </a>
             </div>
             <div>
                 <nav id="main-nav">
@@ -39,10 +42,14 @@
 
 
         </div>
-        <div id="content">
+        </div>
+        <div class="noidung">
             <div>
                 <img src="homepage_hero_LG.png" width="100%" height="100%">
             </div>
+        <div class="container">
+            <div style="padding-top: 10%; padding-left: 10%; padding-bottom: 10%;">
+            
             <table>
                 <th>
                     <div>
@@ -139,7 +146,7 @@
         <div class="khoahocnoibat">
             <a href="signup.html">Tham gia ngay</a>
         </div>
-        <div class=icon_logo style="display: inline-block;">
+        <div class=icon_logo style="display: inline-block;" >
             <table>
                 <tr>
                     <th>
@@ -175,11 +182,24 @@
                 </tr>
             </table>
         </div>
+    </div>
+        <div class="footer" style="width:auto">
+          
+            <div style="padding-top: 200px" >
+                <hr/>   
+            <div class="row">
+                <div class="col-sm-3" style="margin-left: 10%;">                    
+					<h6>Quy định và điều khoản</h6>
 
-        <div id="footer">
+					<ul>
+						<li><a href="" >Quy định</a></li>
+						<li><a href="">Điều khoản</a></li>
+						<li><a href="">Quyền và nghĩa vụ</a></li>
+					
+					</ul>
+				</div>
+                <div class="col-sm-3" style="margin-left: 30%;">
 
-            <div class="foorter-1" style="display: inline-block;">
-                <img src="logo_blue.png" height="20%" width="20%"><br>
                 <b> © UI Path</b>
                 <br> Khu phố 6, P.Linh Trung, Q.Thủ Đức, Tp.Hồ Chí Minh<br>
 
@@ -196,12 +216,14 @@
                 <i style="color: aqua;" class="fab fa-twitter"></i><a href="https://twitter.com">UIPath</a><br>
                 <i style="color: red;" class="fab fa-google-plus-g"></i><a href="https://google.com">UIPath</a><br>
             </div>
-            <div class="footer">
+        </div>
+        </div>
+         
 
             </div>
         </div>
 
-    </div>
+    
 </body>
 
 </html>

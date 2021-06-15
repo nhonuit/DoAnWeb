@@ -1,9 +1,12 @@
-.container{
+.noidung{
   background-image: url(background.jpg);
 }
 #main-nav ul {
     background: whitesmoke;
     list-style-type: none;
+    text-align: center;
+  }
+  #main-menu{
     text-align: center;
   }
   #main-nav li {
@@ -22,6 +25,7 @@
     margin-left: 0%;
   }
   #main-nav a {
+   
     text-decoration: none;
     color:black;
     display: block;
@@ -30,14 +34,21 @@
     background:#1F568B;;;
     color:white;
   }
+  #noidung
+  {
+   
+  }
   .sub-menu li {
+    
     display: none;
-    text-align: left;
+    text-align: left !important;
   }
   #main-nav li {
     position: relative;
    }   
+  
    .sub-menu {
+    text-align: left;
     display: none;
     position: absolute; 
    }
@@ -45,11 +56,12 @@
     display: block;
    }
    .sub-menu li {
-    margin-left: -20px !important;
+   
+    margin-left:-30px !important;
    }
    .slider-frame{
      overflow: hidden;
-     margin-left: 150px;
+     margin-left: -5%;
      height: 400px;
      width: 1200px;
     margin-bottom: 0px;
@@ -94,13 +106,9 @@
    .form{     
      padding: 10px;
    }
-   #footer
-{ margin-top: 200px;
-  margin-left: 1000px;
-  margin-bottom: 1%;
-}
+   
 .icon_logo{
   margin-top: 110px;
   width: 1100px;
-  margin-left: 350px;
+  margin-left: 5%;
 }
