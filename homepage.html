@@ -13,32 +13,39 @@
 
 <body>
     <header class="header">
-        <div class="row header" style="display: inline-block;">
-            <div class="logo" style="display: inline-block;">
-                <img src="./image/logo/logo_red.png" height="15%" width="15%" />
+        <div class="header-container">
+          
+            <div class="header-logo" style="display: inline-block;">
+                <a href="./homepage.html">
+                <img src="./image/logo/logo_red.png"/>
+            </a>
             </div>
-
-            <div class="sign" style="display: inline-block;">
-                <a href="signin.html" class="btn btn-success"><i class="fas fa-sign-in-alt"></i> Đăng nhập</a><br />
-
-                <a href="signup.html" class="btn btn-success"> <i class="fas fa-sign-in-alt"></i> Đăng kí </a>
-            </div>
-            <div>
-                <nav id="main-nav">
-                    <ul id="main-menu">
-                        <li><a href="homepage.html">TRANG CHỦ</a></li>
-                        <li><a href="khoahoc.html">KHÓA HỌC</a></li>
-                        <li>
+            <div class="header-menu">
+                <ul class="header-list">
+                        <li class="header-menu-item">
+                            <a href="homepage.html">TRANG CHỦ</a></li>
+                        <li class="header-menu-item">
+                            <a href="khoahoc.html">KHÓA HỌC</a></li>
+                        <li class="header-menu-item">
                             <a href="homepage.html">LIÊN HỆ</a>
-                            <ul class="sub-menu">
-                                <li><a href="https://facebook.com">Facebook</a></li>
-                                <li><a href="https://youtube.com">Youtube</a></li>
-                                <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=new">Mail</a></li>
+                            <ul class="header-submenu">
+                                <li class="header-submenu-item">
+                                    <a class="header-submenu-item" href="https://facebook.com">Facebook</a></li>
+                                <li class="header-submenu-item">
+                                    <a class="header-submenu-item" href="https://youtube.com">Youtube</a></li>
+                                <li class="header-submenu-item">
+                                    <a class="header-submenu-item" href="https://mail.google.com/mail/u/0/#inbox?compose=new">Mail</a></li>
                             </ul>
                         </li>
-                    </ul>
-                </nav>
-            </div>
+                  
+                </ul>
+            </div>  
+            
+            <div class="sign">
+                <a href="signin.html" ><i class="fas fa-sign-in-alt"></i> Đăng nhập</a><br />
+
+                <a href="signup.html" > <i class="fas fa-sign-in-alt"></i> Đăng kí </a>
+            </div>          
         </div>
     </header>
     <div class="noidung">
