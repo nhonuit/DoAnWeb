@@ -9,7 +9,7 @@
   <link rel="stylesheet" type="text/css" href="./style/style1.css" />
   <link rel="stylesheet" type="text/css" href="./style/style3.css" />
   <link rel="stylesheet" type="text/css" href="./style/bootstrap.css" />
-  <title>Đăng kí UIPath</title>
+  <title>Đăng kí</title>
 </head>
 
 <body>

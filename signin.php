@@ -15,7 +15,7 @@
     <link rel="stylesheet" type="text/css" href="./style/style1.css" />
     <link rel="stylesheet" type="text/css" href="./style/style3.css" />
     <link rel="stylesheet" type="text/css" href="./style/bootstrap.css" />
-    <title>Đăng nhập UIPath</title>
+    <title>Đăng nhập</title>
 </head>
 
 <body>
