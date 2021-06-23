@@ -19,35 +19,45 @@
 </head>
 
 <body>
-    <header class="header">
+<header class="header">
         <div class="header-container">
-          
+
             <div class="header-logo" style="display: inline-block;">
                 <a href="./homepage.html">
-                <img src="./image/logo/logo_red.png"/>
-            </a>
+                    <img src="./image/logo/logo_red.png" />
+                </a>
             </div>
             <div class="header-menu">
                 <ul class="header-list">
-                        <li class="header-menu-item">
-                            <a href="homepage.html">TRANG CHỦ</a></li>
-                        <li class="header-menu-item">
-                            <a href="khoahoc.html">KHÓA HỌC</a></li>
-                        <li class="header-menu-item">
-                            <a href="homepage.html">LIÊN HỆ</a>
-                            <ul class="header-submenu">
-                                <li class="header-submenu-item">
-                                    <a class="header-submenu-item" href="https://facebook.com">Facebook</a></li>
-                                <li class="header-submenu-item">
-                                    <a class="header-submenu-item" href="https://youtube.com">Youtube</a></li>
-                                <li class="header-submenu-item">
-                                    <a class="header-submenu-item" href="https://mail.google.com/mail/u/0/#inbox?compose=new">Mail</a></li>
-                            </ul>
-                        </li>
-                  
+                    <li class="header-menu-item">
+                        <a href="homepage.html">TRANG CHỦ</a>
+                    </li>
+                    <li class="header-menu-item">
+                        <a href="khoahoc.html">KHÓA HỌC</a>
+                    </li>
+                    <li class="header-menu-item">
+                        <a href="homepage.html">LIÊN HỆ</a>
+                        <ul class="header-submenu">
+                            <li class="header-submenu-item">
+                                <a class="header-submenu-item" href="https://facebook.com">Facebook</a>
+                            </li>
+                            <li class="header-submenu-item">
+                                <a class="header-submenu-item" href="https://youtube.com">Youtube</a>
+                            </li>
+                            <li class="header-submenu-item">
+                                <a class="header-submenu-item"
+                                    href="https://mail.google.com/mail/u/0/#inbox?compose=new">Mail</a>
+                            </li>
+                        </ul>
+                    </li>
+
                 </ul>
-            </div>  
-            
+            </div>
+            <form class="form-inline d-flex justify-content-center md-form form-sm mt-0">
+
+                <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search"
+                    aria-label="Search">
+            </form>
             <div class="sign">
                 <a href="signin.php" ><i class="fas fa-sign-in-alt"></i> Đăng nhập</a><br />
 
@@ -57,7 +67,7 @@
     </header>
     <div class="noidung">
         <div class="container">
-            <form action="/action_page.php" id="formDemo">
+            <form action="signin.php" id="formDemo">
                 <h1>
                     ĐĂNG NHẬP
                 </h1>

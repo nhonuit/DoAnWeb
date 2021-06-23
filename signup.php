@@ -61,7 +61,7 @@
 </header>
   <div class="noidung">
     <div class="container">
-      <form action="/action_page.php" id="formDemo">
+      <form action="signup.php" id="formDemo">
         <h1>
           ĐĂNG KÝ
         </h1>
