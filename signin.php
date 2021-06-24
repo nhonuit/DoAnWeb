@@ -81,6 +81,10 @@
                     <a href="loading.html"><input type="button" value="ĐĂNG NHẬP"></a>
                 </div>
             </form>
+            <div class="signin_gg_fb">
+                <a></a><button type="button"><i style="color: blue;" class="fab fa-facebook"></i>Đăng nhập bằng Facebook</button><br>
+                <a></a><button type="button"><i style="color: red;" class="fab fa-google-plus-g"></i>Đăng nhập bằng Google   </button>
+            </div>
         </div>
         <footer class="footer">
             <div style="padding-top: 10%;">

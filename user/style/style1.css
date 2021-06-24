@@ -1,0 +1,149 @@
+/*background*/
+.noidung{
+  background-image: url('./background/background.jpg');
+}
+/*header*/
+.header-logo{
+
+}
+.header{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgba(255, 255, 255, 0.95);  
+  box-shadow: 0px 1px 20px rgb(0 0 0 / 10%);
+  z-index: 10;
+}
+.header-container{
+  display:flex;
+  align-items:center ;
+}
+.header-list{
+  display:flex;
+  align-items:center;
+}
+.header-menu-item{
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin:0 auto;
+  width: 100%;
+}
+.header-menu-item{
+  font-size: 130%;
+  font-weight: 500;
+  width: 180px;
+  padding:10px ;
+  display:inline-block; 
+  color:blue;
+ 
+}
+.header-menu-item:hover{
+background-color: orange;
+}.header-menu-item:hover .header-submenu{
+  display:block;
+}
+.header-submenu{
+  position: absolute;
+  width: 180%;
+  left:0px;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+  display: none;
+  transition: all linear 0.3s;  
+  transform-origin: top;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+.header-submenu-item{
+  display:flex;
+  padding:10px 10px;
+  text-align:left;
+  font-weight: 500;
+  transition:transform linear 0.3s;
+
+}
+/*dichchuyenkhiduachuotvao*/
+.header-submenu-item:hover .header-submenu-item:hover{
+  transform:translateX(10%);
+  
+}
+
+/*signin_signup*/
+.sign
+{
+  padding-left: 25%;
+}
+
+/*khoahocnoibat*/
+.khoahocnoibat{
+  text-align: center;
+}
+  
+ 
+  #noidung
+  {
+   
+  }
+/*slideshow_giuaweb*/
+   .slider-frame{
+     overflow: hidden;
+     margin-left: -5%;
+     height: 400px;
+     width: 1200px;
+   
+   }
+   @-webkit-keyframes slide_animation{
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:1200px;}
+    30% {left:1200px;}
+    40% {left: 2400px;}
+    50% {left: 2400px;}
+    60% {left: 1200px;}
+    70% {left: 1200px;}
+    80% {left: 0px;}
+    90% {left: 0px}
+    100% {left: 0px}
+  }
+    
+    .slide-images{
+      width: 3600px;
+      height:500px;
+      margin: 0 0 0 -2400px;
+      position: relative;
+      -webkit-animation-name: slide_animation;
+      -webkit-animation-duration: 33s;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-play-state: running;
+    }
+    
+   .img-container{
+    height: 500px;
+    width: 1200px;
+    position: relative;
+    float: left;
+    }
+   
+   
+   /*loiich*/
+   .loiich
+{
+  text-align: center;
+  padding-top: 10%;
+}
+/*logo_taitro*/ 
+.icon_logo{
+  margin-top: 110px;
+  width: 1100px;
+  margin-left: 5%;
+}
+
+/*footer*/
+.tieude{
+  text-align: center;
+}
+.footer
+{
+  margin-left: 5%;
+}
