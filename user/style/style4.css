@@ -1,0 +1,25 @@
+.commentbox
+{   margin-top: 5%;
+    margin-left: 10%;
+    width: 80%;
+    text-align: center;
+    align-items: center;
+}
+.user_ct
+{
+    
+        margin-left: 1rem;
+        padding-top: 1rem; 
+        float: left;
+       
+        
+}
+.user_img{
+    display: inline-block;
+ 
+}
+.img
+{   
+    border-radius: 10rem;
+    width: 10%;
+}
