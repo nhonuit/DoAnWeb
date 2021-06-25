@@ -59,6 +59,12 @@
         </div>
     </div>
 </header>
+
+<?php
+
+
+
+?>
   <div class="noidung">
     <div class="container">
       <form action="signup.php" id="formDemo">
