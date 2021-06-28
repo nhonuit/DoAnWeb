@@ -3,9 +3,7 @@
   background-image: url('./background/background.jpg');
 }
 /*header*/
-.header-logo{
 
-}
 .header{
   position: fixed;
   top: 0px;
@@ -63,6 +61,7 @@ background-color: orange;
   transition:transform linear 0.3s;
 
 }
+
 /*dichchuyenkhiduachuotvao*/
 .header-submenu-item:hover .header-submenu-item:hover{
   transform:translateX(10%);
@@ -83,6 +82,7 @@ background-color: orange;
   overflow: hidden;
   cursor: pointer;
 }
+/*avatar_to_round*/
 .action .profile img
 { 
   
@@ -93,6 +93,7 @@ background-color: orange;
   object-fit: cover;
 
 }
+/*giaodienmenu*/
 .action .menu
 { 
   width: 15%;
@@ -103,11 +104,13 @@ background-color: orange;
   visibility: hidden;
   opacity: 0;
 }
+/*anvaomenu*/
 .action .menu.active
 {
   visibility: visible;
   opacity: 1;
 }
+/*thanhnhonmenu*/
 .action .menu::before
 {
   content: '';
@@ -120,6 +123,7 @@ background-color: orange;
   background: blanchedalmond;
   transform: rotate(45deg);
 }
+/*xoali*/
 .action .menu ul li
 {
 list-style: none;

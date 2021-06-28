@@ -69,12 +69,13 @@
     <div class="container">
       <form action="signup.php" id="formDemo">
         <h1>
-          ĐĂNG KÝ
+          THÔNG TIN CÁ NHÂN
         </h1>
         <div style="display: inline-block;">
           <label>Tên đăng nhập</label><br>
-          <input name="username" type="text">
-
+          <input name="username" type="text"><br>
+          <label>Tên</label><br>
+          <input name="name" type="text">
           <br>
           <label>Số điện thoại</label><br>
           <input name="phonenum" type="text">
@@ -112,6 +113,10 @@
                   required: true,
                   minlength: 5
                 },
+                name: {
+                  required: true,
+                  minlength: 1
+                },
                 phonenum: {
                   required: true,
                   minlength: 10,
@@ -135,8 +140,13 @@
               messages: {
                 username: {
 
-                  required: "Vui lòng nhập tên!",
+                  required: "Vui lòng nhập tên đăng nhập!",
                   minlength: "User name quá ngắn"
+                },
+                username: {
+
+                  required: "Vui lòng nhập tên!",
+                  minlength: "Tên quá ngắn"
                 },
                 phonenum: {
                   required: "Vui lòng nhập số điện thoại",

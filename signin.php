@@ -77,7 +77,7 @@
 
                     <label>Mật khẩu</label><br>
                     <input id="pass" name="pass" type="password"><br>
-                    <a href="#">Quên mật khẩu?</a><br>
+                    <a href="quenmatkhau.html">Quên mật khẩu?</a><br>
                     <a href=""><input type="button" value="ĐĂNG NHẬP"></a>
                 </div>
             </form>
