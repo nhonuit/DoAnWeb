@@ -36,7 +36,7 @@
             <div class="menu">
                 
                 <ul>
-                    <li><a href="profile.html">My profile</a></li>
+                    <li><a href="profile.php">My profile</a></li>
                     <li><a href="#">Khóa học đã tham gia</a></li>
                     <li><a href="/DoAnWeb/homepage.html">Đăng xuất</a></li>
                 </ul>
@@ -46,17 +46,19 @@
     </header>
     <div class="noidung">
         <div class="container" style="margin-top: 10%; text-align: center;">
+            <button><a href="./quanlikhoahoc.html" style="color: black;"> Quản lí khóa học</a></button>
+            <button><a href="./quanliuser.html" style="color: black;"> Quản lí người dùng</a></button>
           </div>
-          <table>
-              <tr><th><p style="text-align: center;">Ảnh đại diện</p></th>
-                  <th><p style="text-align: center;">Tên</p></th>
-                  <th><p style="text-align: center;">Số điện thoại</p></th>
+          <table style="margin-left: 10%;">
+              <tr>
+                  <th><p style="text-align: center;">Ảnh khóa học</p></th>
+                  <th><p style="text-align: center;">Tên khóa học</p></th>
                   <th><p style="text-align: center;">
-                    Email
+                    Số phần
                 </p>
                 </th>
                 <th><p style="text-align: center;">
-                   Thông tin thêm
+                   Tổng thời lượng
                 </p>
                 </th>
                 <th><p style="text-align: center;">Thao tác</p></th>
@@ -64,14 +66,13 @@
               <hr/>
               <tr>
                   <th>
-                      <img src="./image/icon_robot2.png" alt="ERROR">
+                      <img src="./image/khoahoc/RPADevelopers.jpg" alt="ERROR">
                   </th>
                   <th>
-                    <p>Nguyen Nhon</p>
+                    <p>RPA Citizen Developer Foundation</p>
                   </th>
-                  <th><p style="text-align:center">0999999999</p></th>
-                  <th><p style="text-align: center;">nhon1234@gmail.com</p></th>
-                  <th><p style="text-align: center;">Nhon123</p></th>
+                  <th><p style="text-align:center">3</p></th>
+                  <th><p style="text-align: center;">45 tiếng</p></th>
                   <th><button type="button" class="btn btn-success"><a href="./course.html" style="color: white;"> Truy cập khóa học</a></button>   
                   <button type="button" class="btn btn-danger"><a href="#" style="color: white;"> Xóa khóa học</a></button>
                   <button type="button" class="btn btn-warning"><a href="#" style="color: white;"> Chỉnh sửa khóa học</a></button>

@@ -25,7 +25,7 @@
                     <input name="username" type="text"><br>
 
                     <label>Mật khẩu</label><br>
-                    <input id="pass" name="pass" type="password"><br>
+                    <input id="password" name="password" type="password"><br>
                     <a href="#">Quên mật khẩu?</a><br>
                     <a href="#"><input class="login_admin" type="submit" value="ĐĂNG NHẬP"></a>
                 </div>

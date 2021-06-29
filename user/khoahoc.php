@@ -64,9 +64,9 @@
             <div class="menu">
                 
                 <ul>
-                    <li><a href="profile.html">My profile</a></li>
-                    <li><a href="mycourse.html">Khóa học đã tham gia</a></li>
-                    <li><a href="/DoAnWeb/homepage.html">Đăng xuất</a></li>
+                    <li><a href="/user/profile.php">My profile</a></li>
+                    <li><a href="/user/mycourse.php">Khóa học đã tham gia</a></li>
+                    <li><a href="signout.php">Đăng xuất</a></li>
                 </ul>
             </div>
               </div>

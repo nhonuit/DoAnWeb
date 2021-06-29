@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" style="background: black;">
         <div class="header-container">
 
             <div class="header-logo" style="display: inline-block;">
@@ -21,37 +21,10 @@
                     <img src="./image/logo/logo_red.png" />
                 </a>
             </div>
-            <div class="header-menu">
-                <ul class="header-list">
-                    <li class="header-menu-item">
-                        <a href="homepage.html">TRANG CHỦ</a>
-                    </li>
-                    <li class="header-menu-item">
-                        <a href="khoahoc.html">KHÓA HỌC</a>
-                    </li>
-                    <li class="header-menu-item">
-                        <a href="homepage.html">LIÊN HỆ</a>
-                        <ul class="header-submenu">
-                            <li class="header-submenu-item">
-                                <a class="header-submenu-item" href="https://facebook.com">Facebook</a>
-                            </li>
-                            <li class="header-submenu-item">
-                                <a class="header-submenu-item" href="https://youtube.com">Youtube</a>
-                            </li>
-                            <li class="header-submenu-item">
-                                <a class="header-submenu-item"
-                                    href="https://mail.google.com/mail/u/0/#inbox?compose=new">Mail</a>
-                            </li>
-                        </ul>
-                    </li>
-
-                </ul>
+            <div class="header-menu" style="margin-left:10%">
+               <h2 style="color: cornsilk;">Welcome, admin</h2>
             </div>
-            <form class="form-inline d-flex justify-content-center md-form form-sm mt-0">
-
-                <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search"
-                    aria-label="Search">
-            </form>
+            
             <div class="action">
                 <div style="display: inline-block;">
             <div class="profile" onclick="menutoggle();">
@@ -63,7 +36,7 @@
             <div class="menu">
                 
                 <ul>
-                    <li><a href="profile.html">My profile</a></li>
+                    <li><a href="profile.php">My profile</a></li>
                     <li><a href="#">Khóa học đã tham gia</a></li>
                     <li><a href="/DoAnWeb/homepage.html">Đăng xuất</a></li>
                 </ul>
@@ -74,16 +47,16 @@
     <div class="noidung">
         <div class="container" style="margin-top: 10%; text-align: center;">
           </div>
-          <table style="margin-left: 10%;">
-              <tr>
-                  <th><p style="text-align: center;">Ảnh khóa học</p></th>
-                  <th><p style="text-align: center;">Tên khóa học</p></th>
+          <table>
+              <tr><th><p style="text-align: center;">Ảnh đại diện</p></th>
+                  <th><p style="text-align: center;">Tên</p></th>
+                  <th><p style="text-align: center;">Số điện thoại</p></th>
                   <th><p style="text-align: center;">
-                    Số phần
+                    Email
                 </p>
                 </th>
                 <th><p style="text-align: center;">
-                   Tổng thời lượng
+                   Thông tin thêm
                 </p>
                 </th>
                 <th><p style="text-align: center;">Thao tác</p></th>
@@ -91,15 +64,18 @@
               <hr/>
               <tr>
                   <th>
-                      <img src="./image/khoahoc/RPADevelopers.jpg" alt="ERROR">
+                      <img src="./image/icon_robot2.png" alt="ERROR">
                   </th>
                   <th>
-                    <p>RPA Citizen Developer Foundation</p>
+                    <p>Nguyen Nhon</p>
                   </th>
-                  <th><p style="text-align:center">3</p></th>
-                  <th><p style="text-align: center;">45 tiếng</p></th>
+                  <th><p style="text-align:center">0999999999</p></th>
+                  <th><p style="text-align: center;">nhon1234@gmail.com</p></th>
+                  <th><p style="text-align: center;">Nhon123</p></th>
                   <th><button type="button" class="btn btn-success"><a href="./course.html" style="color: white;"> Truy cập khóa học</a></button>   
-                  <button type="button" class="btn btn-danger"><a href="#" style="color: white;"> Xóa khóa học</a></button></th>
+                  <button type="button" class="btn btn-danger"><a href="#" style="color: white;"> Xóa khóa học</a></button>
+                  <button type="button" class="btn btn-warning"><a href="#" style="color: white;"> Chỉnh sửa khóa học</a></button>
+                  <button type="button" class="btn btn-primary"><a href="#" style="color: white;"> Xem khóa học</a></button></th>
               </tr>
           </table>
         <footer class="footer">

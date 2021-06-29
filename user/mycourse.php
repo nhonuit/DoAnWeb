@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <header class="header" style="background: black;">
+    <header class="header">
         <div class="header-container">
 
             <div class="header-logo" style="display: inline-block;">
@@ -21,10 +21,37 @@
                     <img src="./image/logo/logo_red.png" />
                 </a>
             </div>
-            <div class="header-menu" style="margin-left:10%">
-               <h2 style="color: cornsilk;">Welcome, admin</h2>
+            <div class="header-menu">
+                <ul class="header-list">
+                    <li class="header-menu-item">
+                        <a href="homepage.html">TRANG CHỦ</a>
+                    </li>
+                    <li class="header-menu-item">
+                        <a href="khoahoc.html">KHÓA HỌC</a>
+                    </li>
+                    <li class="header-menu-item">
+                        <a href="homepage.html">LIÊN HỆ</a>
+                        <ul class="header-submenu">
+                            <li class="header-submenu-item">
+                                <a class="header-submenu-item" href="https://facebook.com">Facebook</a>
+                            </li>
+                            <li class="header-submenu-item">
+                                <a class="header-submenu-item" href="https://youtube.com">Youtube</a>
+                            </li>
+                            <li class="header-submenu-item">
+                                <a class="header-submenu-item"
+                                    href="https://mail.google.com/mail/u/0/#inbox?compose=new">Mail</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
             </div>
-            
+            <form class="form-inline d-flex justify-content-center md-form form-sm mt-0">
+
+                <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search"
+                    aria-label="Search">
+            </form>
             <div class="action">
                 <div style="display: inline-block;">
             <div class="profile" onclick="menutoggle();">
@@ -36,9 +63,9 @@
             <div class="menu">
                 
                 <ul>
-                    <li><a href="profile.html">My profile</a></li>
-                    <li><a href="#">Khóa học đã tham gia</a></li>
-                    <li><a href="/DoAnWeb/homepage.html">Đăng xuất</a></li>
+                    <li><a href="/user/profile.php">My profile</a></li>
+                    <li><a href="/user/mycourse.php">Khóa học đã tham gia</a></li>
+                    <li><a href="signout.php">Đăng xuất</a></li>
                 </ul>
             </div>
               </div>
@@ -46,8 +73,6 @@
     </header>
     <div class="noidung">
         <div class="container" style="margin-top: 10%; text-align: center;">
-            <button><a href="./quanlikhoahoc.html" style="color: black;"> Quản lí khóa học</a></button>
-            <button><a href="./quanliuser.html" style="color: black;"> Quản lí người dùng</a></button>
           </div>
           <table style="margin-left: 10%;">
               <tr>
@@ -74,9 +99,7 @@
                   <th><p style="text-align:center">3</p></th>
                   <th><p style="text-align: center;">45 tiếng</p></th>
                   <th><button type="button" class="btn btn-success"><a href="./course.html" style="color: white;"> Truy cập khóa học</a></button>   
-                  <button type="button" class="btn btn-danger"><a href="#" style="color: white;"> Xóa khóa học</a></button>
-                  <button type="button" class="btn btn-warning"><a href="#" style="color: white;"> Chỉnh sửa khóa học</a></button>
-                  <button type="button" class="btn btn-primary"><a href="#" style="color: white;"> Xem khóa học</a></button></th>
+                  <button type="button" class="btn btn-danger"><a href="#" style="color: white;"> Xóa khóa học</a></button></th>
               </tr>
           </table>
         <footer class="footer">

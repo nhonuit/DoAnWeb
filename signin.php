@@ -1,9 +1,3 @@
-<?php
-
-
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,7 +13,9 @@
 </head>
 
 <body>
-<header class="header">
+
+<!-- Phần đầu trang -->
+    <header class="header">
         <div class="header-container">
 
             <div class="header-logo" style="display: inline-block;">
@@ -65,27 +61,82 @@
             </div>          
         </div>
     </header>
+
+
+
+<!-- Đăng nhập -->
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<?php 
+
+include 'config.php';
+
+session_start();
+
+error_reporting(0);
+
+if (isset($_SESSION['username'])) {
+    header("Location: /user/profile.php");
+}
+/*else {
+    echo "<script>Swal.fire(
+        'Bạn cần đăng nhập',
+        'Nhập Email và Mật khẩu',
+        'error'
+      )</script>";
+}*/
+
+if (isset($_POST['submit'])) {
+	$email = $_POST['email'];
+	$password = md5($_POST['password']);
+
+	$sql = "SELECT * FROM users WHERE email='$email' AND password='$password'";
+	$result = mysqli_query($conn, $sql);
+	if ($result->num_rows > 0) {
+		$row = mysqli_fetch_assoc($result);
+		$_SESSION['username'] = $row['username'];
+		header("Location: /user/profile.php");
+	} else {
+		echo "<script>Swal.fire(
+            'Lỗi đăng nhập',
+            'Nhập lại Email hoặc Mật khẩu',
+            'error'
+          )</script>";
+	}
+}
+
+?>
+<!-- Đăng nhập -->
+
+        <!-- Phần giao diện đăng nhập -->
     <div class="noidung">
         <div class="container">
-            <form action="signin.php" id="formDemo">
+            <form action="" id="formDemo" method="POST">
                 <h1>
                     ĐĂNG NHẬP
                 </h1>
                 <div class="form">
-                    <label>Tên đăng nhập</label><br>
-                    <input name="username" type="text"><br>
+
+                    <label>Email</label><br>
+                    <input name="email" type="text" value="<?php echo $email; ?>"><br>
 
                     <label>Mật khẩu</label><br>
-                    <input id="pass" name="pass" type="password"><br>
+                    <input id="password" name="password" type="password" ><br>
                     <a href="quenmatkhau.html">Quên mật khẩu?</a><br>
-                    <a href=""><input type="button" value="ĐĂNG NHẬP"></a>
+
+                    <!-- <a><input type="button" name="submit" value="ĐĂNG NHẬP"></a> -->
+                    <button name="submit" class="btn">Login</button>
                 </div>
             </form>
             <div class="signin_gg_fb">
                 <a></a><button type="button"><i style="color: blue;" class="fab fa-facebook"></i>Đăng nhập bằng Facebook</button><br>
                 <a></a><button type="button"><i style="color: red;" class="fab fa-google-plus-g"></i>Đăng nhập bằng Google   </button>
             </div>
+
+            <p>Bạn đã có tài khoản chưa? <a href="signup.php">Đăng ký ở đây</a>.</p>
         </div>
+        <!-- Phần giao diện đăng nhập -->
+
+        <!-- Phần chân trang -->
         <footer class="footer">
             <div style="padding-top: 10%;">
                 <hr/>
@@ -102,7 +153,7 @@
                     <div class="col-sm-3" style="margin-left: 10%;">
                       <div class="tieude">
                         <h5>Quy định và điều khoản</h5>
-</div>
+                         </div>
                         <ul>
                             <li><a href="">Quy định</a></li>
                             <li><a href="">Điều khoản</a></li>
@@ -133,6 +184,7 @@
                 </div>
             </div>
         </footer>
+
     </div>
 </body>
 

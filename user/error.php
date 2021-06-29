@@ -7,10 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <link rel="stylesheet" type="text/css" href="./style/style1.css" />
-    <link rel="stylesheet" type="text/css" href="./style/style4.css" />
     <link rel="stylesheet" type="text/css" href="./style/bootstrap.css" />
     <script type="text/javascript" src="./js/toggle.js"></script>
-    <title>Course</title>
+    <title>ERROR</title>
 </head>
 
 <body>
@@ -64,60 +63,20 @@
             <div class="menu">
                 
                 <ul>
-                    <li><a href="profile.html">My profile</a></li>
-                    <li><a href="mycourse.html">Khóa học đã tham gia</a></li>
-                    <li><a href="/DoAnWeb/homepage.html">Đăng xuất</a></li>
+                    <li><a href="/user/profile.php">My profile</a></li>
+                    <li><a href="/user/mycourse.php">Khóa học đã tham gia</a></li>
+                    <li><a href="signout.php">Đăng xuất</a></li>
                 </ul>
             </div>
-              </div>       
+              </div> 
         </div>
     </header>
     <div class="noidung">
         <div class="container" style="text-align: center;padding-top: 15%;" >
-            <div>
-                <h2>Tên khóa học</h2>
-                <p>RPA Citizen Developer Foundation</p>
-            </div>
-        <table>
-           
-            <tr>
-                <th>
-                    <img src="./image/khoahoc/html_css.jpg">  
-                </th>
-                <th>
-                    <button type="button" class="btn btn-info">Thêm khóa học</button>
-                    <h2>Thông tin khóa học</h2>
-                    <p>Tên khóa học</p>
-                    <p>Số video</p>
-                    <p>Thời lượng</p>
-                </th>
-            </tr>
-        </table>
-        </div>
-        <hr>
-        <div>
-            <h2>
-                    BÌNH LUẬN
-            </h2>
-            <textarea name="" class="commentbox" placeholder="Vui lòng bình luận về chất lượng khóa học"></textarea>
-        </div>
-        <div class="user_img">
-           
-
-        
-            <img class="img" src="./image/logo_blue.png" alt="logo">
-           
-            <h1>Nguyen Nhon</h1>  
-       
-        
-        </div>
-        <div class="user_ct">
-                     
-            <p style="font-size: 15px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis facere dolorem, reprehenderit veritatis est dolorum asperiores praesentium illum unde maxime minus eos natus libero dolores ex, sapiente blanditiis vero odio.</p>
+            <h2>Lost your way?</h2>
+            <p>Khóa học này đã bị xóa hoặc đang được update, vui lòng quay lại sau!</p>
         </div>
     </div>
-    
-    
     <footer class="footer">
         <div style="padding-top: 10%;">
             <hr />

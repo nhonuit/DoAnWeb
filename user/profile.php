@@ -1,3 +1,14 @@
+<?php
+
+error_reporting(0);
+
+session_start();
+
+if (!isset($_SESSION['username'])) {
+  header("Location: signin.php");
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,6 +24,7 @@
 </head>
 
 <body>
+<!-- Phần đầu trang -->
     <header class="header">
         <div class="header-container">
 
@@ -58,124 +70,53 @@
                     <img src="./image/icon_robot2.png">
                    
             </div>
-            <h3>Nguyen Nhon</h3>
+            <!--<h3>Nguyen Nhon</h3> -->
+            <?php echo "<h3>" . $_SESSION['username'] . "</h3>"; ?>
         </div>
             <div class="menu">
                 
                 <ul>
-                    <li><a href="profile.html">My profile</a></li>
-                    <li><a href="mycourse.html">Khóa học đã tham gia</a></li>
-                    <li><a href="/DoAnWeb/homepage.html">Đăng xuất</a></li>
+                    <li><a href="/user/profile.php">My profile</a></li>
+                    <li><a href="/user/mycourse.php">Khóa học đã tham gia</a></li>
+                    <li><a href="signout.php">Đăng xuất</a></li>
                 </ul>
             </div>
               </div>
         </div>
     </header>
+
+    <!-- Hiển thị thông tin cá nhân -->
     <div class="noidung">
         <div class="container">
-          <form action="signup.php" id="formDemo" style="margin-left: 30%;">
+          <form action="" id="formDemo" style="margin-left: 30%;">
             <h1>
               THÔNG TIN CÁ NHÂN
             </h1>
             <div style="display: inline-block; margin-left: 10%;" >
-              <label>Tên đăng nhập</label><br>
-              <input name="username" type="text" value="nhonnhon" READONLY><br>
+              
               <label>Tên</label><br>
-              <input name="name" type="text" value="Nguyen Nhon">
+              <input name="name" type="text" value="<?php echo $_SESSION['name']; ?>">
+
+              <label>Tên đăng nhập</label><br>
+              <input name="username" type="text" value="<?php echo $_SESSION['username']; ?>" READONLY><br>
+              
               <br>
               <label>Số điện thoại</label><br>
-              <input name="phonenum" type="text" value="0999999999">
+              <input name="phonenum" type="text" value="<?php echo $_SESSION['phonenum']; ?>">
               <br>
     
               <label>Email</label><br>
-              <input name="email" type="text" value="nhon1234@gmail.com">
+              <input name="email" type="text" value="<?php echo $_SESSION['email']; ?>">
               <br>
-    
-              <label>Mật khẩu</label><br>
-              <input id="pass" name="pass" type="password" value="123456789">
-    
-              <br>
-              <label>Nhập lại mật khẩu</label><br>
-              <input id="repass" name="repass" type="password">
     
               <br>
               <label>Thông tin thêm</label><br>
-              <input style="margin-bottom: 20pt;" name="more" type="text" value="Nhondeptrai"><br>
+              <input style="margin-bottom: 20pt;" name="more" type="text" value="<?php echo $_SESSION['more']; ?>"><br>
     
             </div>
             <div style="margin-left: 10%;">
-              <button id="btn" onclick="clicking">Gửi</button>
+            <a href="signout.php">Logout</a>
             </div>
-            <script src="http://code.jquery.com/jquery-3.4.1.min.js"
-              integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-            <script type="text/javascript"
-              src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
-    
-            <script type="text/javascript">
-              $(document).ready(function () {
-                $("#formDemo").validate({
-                  rules: {
-                    username: {
-                      required: true,
-                      minlength: 5
-                    },
-                    name: {
-                      required: true,
-                      minlength: 1
-                    },
-                    phonenum: {
-                      required: true,
-                      minlength: 10,
-                      maxlength: 11
-                    },
-                    email: {
-                      required: true,
-                      email: true
-                    },
-                    pass: {
-                      required: true,
-                      minlength: 5
-                    },
-    
-                    repass: {
-                      required: true,
-                      minlength: 5,
-                      equalTo: pass
-                    },
-                  },
-                  messages: {
-                    username: {
-    
-                      required: "Vui lòng nhập tên đăng nhập!",
-                      minlength: "User name quá ngắn"
-                    },
-                    username: {
-    
-                      required: "Vui lòng nhập tên!",
-                      minlength: "Tên quá ngắn"
-                    },
-                    phonenum: {
-                      required: "Vui lòng nhập số điện thoại",
-                      minlength: "Số máy quý khách vừa nhập không có thực",
-                      maxlength: "Số máy quý khách vừa nhập không có thực",
-                    },
-                    email: {
-                      required: "Vui lòng nhập vào email",
-                      email: "Nhập đúng định dạng email"
-                    },
-                    pass: {
-                      required: "Vui lòng nhập mật khẩu!",
-                      minlength: "Vui lòng nhập ít nhất 5 kí tự",
-    
-                    },
-                    repass: {
-                      required: "Vui lòng nhập lại mật khẩu",
-                      equalTo: "Mật khấu không trùng",
-                    }
-                  }
-                });
-              });
-            </script>
           </form>
         </div>
     <style>
@@ -236,4 +177,6 @@
     </div>
     </body>
     
-    </html>
+</html>
+
+
