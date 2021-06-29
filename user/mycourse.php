@@ -17,20 +17,20 @@
         <div class="header-container">
 
             <div class="header-logo" style="display: inline-block;">
-                <a href="./homepage.html">
+                <a href="./homepage.php">
                     <img src="./image/logo/logo_red.png" />
                 </a>
             </div>
             <div class="header-menu">
                 <ul class="header-list">
                     <li class="header-menu-item">
-                        <a href="homepage.html">TRANG CHỦ</a>
+                        <a href="homepage.php">TRANG CHỦ</a>
                     </li>
                     <li class="header-menu-item">
-                        <a href="khoahoc.html">KHÓA HỌC</a>
+                        <a href="khoahoc.php">KHÓA HỌC</a>
                     </li>
                     <li class="header-menu-item">
-                        <a href="homepage.html">LIÊN HỆ</a>
+                        <a href="homepage.php">LIÊN HỆ</a>
                         <ul class="header-submenu">
                             <li class="header-submenu-item">
                                 <a class="header-submenu-item" href="https://facebook.com">Facebook</a>
@@ -98,7 +98,7 @@
                   </th>
                   <th><p style="text-align:center">3</p></th>
                   <th><p style="text-align: center;">45 tiếng</p></th>
-                  <th><button type="button" class="btn btn-success"><a href="./course.html" style="color: white;"> Truy cập khóa học</a></button>   
+                  <th><button type="button" class="btn btn-success"><a href="./course.php" style="color: white;"> Truy cập khóa học</a></button>   
                   <button type="button" class="btn btn-danger"><a href="#" style="color: white;"> Xóa khóa học</a></button></th>
               </tr>
           </table>

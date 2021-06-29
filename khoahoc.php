@@ -17,20 +17,20 @@
         <div class="header-container">
 
             <div class="header-logo" style="display: inline-block;">
-                <a href="./homepage.html">
+                <a href="./homepage.php">
                     <img src="./image/logo/logo_red.png" />
                 </a>
             </div>
             <div class="header-menu">
                 <ul class="header-list">
                     <li class="header-menu-item">
-                        <a href="homepage.html">TRANG CHỦ</a>
+                        <a href="homepage.php">TRANG CHỦ</a>
                     </li>
                     <li class="header-menu-item">
-                        <a href="khoahoc.html">KHÓA HỌC</a>
+                        <a href="khoahoc.php">KHÓA HỌC</a>
                     </li>
                     <li class="header-menu-item">
-                        <a href="homepage.html">LIÊN HỆ</a>
+                        <a href="homepage.php">LIÊN HỆ</a>
                         <ul class="header-submenu">
                             <li class="header-submenu-item">
                                 <a class="header-submenu-item" href="https://facebook.com">Facebook</a>
@@ -92,7 +92,7 @@
                                                 <div class="card-block">
 
                                                     <p class="card-text">RPA Citizen Developer Foundation</p>
-                                                    <a href="./course.html" class="btn btn-primary">Học ngay</a>
+                                                    <a href="./course.php" class="btn btn-primary">Học ngay</a>
                                                 </div>
                                             </div>
                                             <div class="card anhkhoahoc">
@@ -100,7 +100,7 @@
                                                 <div class="card-block">
 
                                                     <p class="card-text">RPA Developer Foundation</p>
-                                                    <a href="./course.html" class="btn btn-primary">Học ngay</a>
+                                                    <a href="./course.php" class="btn btn-primary">Học ngay</a>
                                                 </div>
                                             </div>
                                             <div class="card anhkhoahoc">
@@ -108,7 +108,7 @@
                                                 <div class="card-block">
 
                                                     <p class="card-text">RPA Developer Advanced</p>
-                                                    <a href="./course.html" class="btn btn-primary">Học ngay</a>
+                                                    <a href="./course.php" class="btn btn-primary">Học ngay</a>
                                                 </div>
                                             </div>
                                             <div class="card anhkhoahoc">
@@ -116,7 +116,7 @@
                                                 <div class="card-block">
 
                                                     <p class="card-text">RPA Business Analyst Foundation</p>
-                                                    <a href="./course.html" class="btn btn-primary">Học ngay</a>
+                                                    <a href="./course.php" class="btn btn-primary">Học ngay</a>
                                                 </div>
                                             </div>
                                             <div class="card anhkhoahoc">
@@ -124,7 +124,7 @@
                                                 <div class="card-block">
 
                                                     <p class="card-text">RPA Solution Architect Foundation</p>
-                                                    <a href="./course.html" class="btn btn-primary">Học ngay</a>
+                                                    <a href="./course.php" class="btn btn-primary">Học ngay</a>
                                                 </div>
                                             </div>
                                             <div class="card anhkhoahoc">
@@ -132,7 +132,7 @@
                                                 <div class="card-block">
 
                                                     <p class="card-text">RPA Infrastructure Engineer Foundation</p>
-                                                    <a href="./course.html" class="btn btn-primary">Học ngay</a>
+                                                    <a href="./course.php" class="btn btn-primary">Học ngay</a>
                                                 </div>
                                             </div>
                                             <div class="card anhkhoahoc">
@@ -140,7 +140,7 @@
                                                 <div class="card-block">
 
                                                     <p class="card-text">RPA Developer Continuous Learning</p>
-                                                    <a href="./course.html" class="btn btn-primary">Học ngay</a>
+                                                    <a href="./course.php" class="btn btn-primary">Học ngay</a>
                                                 </div>
                                             </div>
                                             <div class="card anhkhoahoc">
@@ -148,7 +148,7 @@
                                                 <div class="card-block">
 
                                                     <p class="card-text">RPA Implementation Manager Foundation</p>
-                                                    <a href="./course.html" class="btn btn-primary">Học ngay</a>
+                                                    <a href="./course.php" class="btn btn-primary">Học ngay</a>
                                                 </div>
                                             </div>
 
@@ -171,7 +171,7 @@
                                     <div class="card-block">
 
                                         <p class="card-text">Sales</p>
-                                        <a href="/course.html" class="btn btn-primary">Học ngay</a>
+                                        <a href="/course.php" class="btn btn-primary">Học ngay</a>
                                     </div>
                                 </div>
                                 <div class="card anhkhoahoc">
@@ -179,7 +179,7 @@
                                     <div class="card-block">
 
                                         <p class="card-text">Pre-sales</p>
-                                        <a href="./course.html" class="btn btn-primary">Học ngay</a>
+                                        <a href="./course.php" class="btn btn-primary">Học ngay</a>
                                     </div>
                                 </div>
                                 <div class="card anhkhoahoc">
@@ -187,7 +187,7 @@
                                     <div class="card-block">
 
                                         <p class="card-text">Business Analyst</p>
-                                        <a href="./course.html" class="btn btn-primary">Học ngay</a>
+                                        <a href="./course.php" class="btn btn-primary">Học ngay</a>
                                     </div>
                                 </div>
                                 <div class="card anhkhoahoc">
@@ -195,7 +195,7 @@
                                     <div class="card-block">
 
                                         <p class="card-text">Architect</p>
-                                        <a href="./course.html" class="btn btn-primary">Học ngay</a>
+                                        <a href="./course.php" class="btn btn-primary">Học ngay</a>
                                     </div>
                                 </div>
                             </div>

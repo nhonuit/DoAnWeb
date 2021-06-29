@@ -20,20 +20,20 @@
     <div class="header-container">
 
         <div class="header-logo" style="display: inline-block;">
-            <a href="./homepage.html">
+            <a href="./homepage.php">
                 <img src="./image/logo/logo_red.png" />
             </a>
         </div>
         <div class="header-menu">
             <ul class="header-list">
                 <li class="header-menu-item">
-                    <a href="homepage.html">TRANG CHỦ</a>
+                    <a href="homepage.php">TRANG CHỦ</a>
                 </li>
                 <li class="header-menu-item">
-                    <a href="khoahoc.html">KHÓA HỌC</a>
+                    <a href="khoahoc.php">KHÓA HỌC</a>
                 </li>
                 <li class="header-menu-item">
-                    <a href="homepage.html">LIÊN HỆ</a>
+                    <a href="homepage.php">LIÊN HỆ</a>
                     <ul class="header-submenu">
                         <li class="header-submenu-item">
                             <a class="header-submenu-item" href="https://facebook.com">Facebook</a>

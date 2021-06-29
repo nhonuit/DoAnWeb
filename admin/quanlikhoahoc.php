@@ -17,7 +17,7 @@
         <div class="header-container">
 
             <div class="header-logo" style="display: inline-block;">
-                <a href="./homepage.html">
+                <a href="./homepage.php">
                     <img src="./image/logo/logo_red.png" />
                 </a>
             </div>
@@ -38,7 +38,7 @@
                 <ul>
                     <li><a href="profile.php">My profile</a></li>
                     <li><a href="#">Khóa học đã tham gia</a></li>
-                    <li><a href="/DoAnWeb/homepage.html">Đăng xuất</a></li>
+                    <li><a href="/DoAnWeb/homepage.php">Đăng xuất</a></li>
                 </ul>
             </div>
               </div>
@@ -46,10 +46,10 @@
     </header>
     <div class="noidung">
         <div class="container" style="margin-top: 10%; text-align: center;">
-            <button><a href="./quanlikhoahoc.html" style="color: black;"> Quản lí khóa học</a></button>
-            <button><a href="./quanliuser.html" style="color: black;"> Quản lí người dùng</a></button>
+            <button><a href="./quanlikhoahoc.php" style="color: black;"> Quản lí khóa học</a></button>
+            <button><a href="./quanliuser.php" style="color: black;"> Quản lí người dùng</a></button>
           </div>
-          <button type="button" class="btn btn-success" style="margin-left:45% ;margin-top: 5%;"><a href="./course.html" style="color: white;">Thêm khóa học</a></button>
+          <button type="button" class="btn btn-success" style="margin-left:45% ;margin-top: 5%;"><a href="./course.php" style="color: white;">Thêm khóa học</a></button>
           <table style="margin-left: 10%;">
               <tr>
                   <th><p style="text-align: center;">Ảnh khóa học</p></th>
