@@ -26,7 +26,7 @@
             </div>
             
             <div class="action">
-                <div style="display: inline-block;">
+                <div style="display: flex;">
             <div class="profile" onclick="menutoggle();">
                     <img src="./image/icon_robot2.png">
                    
@@ -49,6 +49,7 @@
             <button><a href="./quanlikhoahoc.html" style="color: black;"> Quản lí khóa học</a></button>
             <button><a href="./quanliuser.html" style="color: black;"> Quản lí người dùng</a></button>
           </div>
+          <button type="button" class="btn btn-success" style="margin-left:45% ;margin-top: 5%;"><a href="./course.html" style="color: white;">Thêm khóa học</a></button>
           <table style="margin-left: 10%;">
               <tr>
                   <th><p style="text-align: center;">Ảnh khóa học</p></th>
@@ -73,7 +74,7 @@
                   </th>
                   <th><p style="text-align:center">3</p></th>
                   <th><p style="text-align: center;">45 tiếng</p></th>
-                  <th><button type="button" class="btn btn-success"><a href="./course.html" style="color: white;"> Truy cập khóa học</a></button>   
+                  <th>   
                   <button type="button" class="btn btn-danger"><a href="#" style="color: white;"> Xóa khóa học</a></button>
                   <button type="button" class="btn btn-warning"><a href="#" style="color: white;"> Chỉnh sửa khóa học</a></button>
                   <button type="button" class="btn btn-primary"><a href="#" style="color: white;"> Xem khóa học</a></button></th>

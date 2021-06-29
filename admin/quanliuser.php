@@ -26,7 +26,7 @@
             </div>
             
             <div class="action">
-                <div style="display: inline-block;">
+                <div style="display: flex;">
             <div class="profile" onclick="menutoggle();">
                     <img src="./image/icon_robot2.png">
                    
@@ -46,8 +46,12 @@
     </header>
     <div class="noidung">
         <div class="container" style="margin-top: 10%; text-align: center;">
+            <button><a href="./quanlikhoahoc.html" style="color: black;"> Quản lí khóa học</a></button>
+            <button><a href="./quanliuser.html" style="color: black;"> Quản lí người dùng</a></button>
           </div>
-          <table>
+         
+          <button type="button" class="btn btn-success" style="margin-left:45% ;margin-top: 5%;"><a href="./course.html" style="color: white;">Thêm user</a></button>
+          <table style="margin-left:20%">
               <tr><th><p style="text-align: center;">Ảnh đại diện</p></th>
                   <th><p style="text-align: center;">Tên</p></th>
                   <th><p style="text-align: center;">Số điện thoại</p></th>
@@ -72,10 +76,10 @@
                   <th><p style="text-align:center">0999999999</p></th>
                   <th><p style="text-align: center;">nhon1234@gmail.com</p></th>
                   <th><p style="text-align: center;">Nhon123</p></th>
-                  <th><button type="button" class="btn btn-success"><a href="./course.html" style="color: white;"> Truy cập khóa học</a></button>   
-                  <button type="button" class="btn btn-danger"><a href="#" style="color: white;"> Xóa khóa học</a></button>
-                  <button type="button" class="btn btn-warning"><a href="#" style="color: white;"> Chỉnh sửa khóa học</a></button>
-                  <button type="button" class="btn btn-primary"><a href="#" style="color: white;"> Xem khóa học</a></button></th>
+                  <th>   
+                  <button type="button" class="btn btn-danger"><a href="#" style="color: white;"> Xóa user</a></button>
+                  <button type="button" class="btn btn-warning"><a href="#" style="color: white;"> Chỉnh sửa</a></button>
+                  </th>
               </tr>
           </table>
         <footer class="footer">

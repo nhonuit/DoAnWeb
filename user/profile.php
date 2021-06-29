@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
 error_reporting(0);
@@ -9,6 +10,8 @@ if (!isset($_SESSION['username'])) {
 }
 ?>
 
+=======
+>>>>>>> edd0d01e1ba29db462085782fc4c1902656774fd
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,7 +27,10 @@ if (!isset($_SESSION['username'])) {
 </head>
 
 <body>
+<<<<<<< HEAD
 <!-- Phần đầu trang -->
+=======
+>>>>>>> edd0d01e1ba29db462085782fc4c1902656774fd
     <header class="header">
         <div class="header-container">
 
@@ -65,34 +71,55 @@ if (!isset($_SESSION['username'])) {
                     aria-label="Search">
             </form>
             <div class="action">
+<<<<<<< HEAD
                 <div style="display: inline-block;">
+=======
+                <div style="display: flex;">
+>>>>>>> edd0d01e1ba29db462085782fc4c1902656774fd
             <div class="profile" onclick="menutoggle();">
                     <img src="./image/icon_robot2.png">
                    
             </div>
+<<<<<<< HEAD
             <!--<h3>Nguyen Nhon</h3> -->
             <?php echo "<h3>" . $_SESSION['username'] . "</h3>"; ?>
+=======
+            <h3>Nguyen Nhon</h3>
+>>>>>>> edd0d01e1ba29db462085782fc4c1902656774fd
         </div>
             <div class="menu">
                 
                 <ul>
+<<<<<<< HEAD
                     <li><a href="/user/profile.php">My profile</a></li>
                     <li><a href="/user/mycourse.php">Khóa học đã tham gia</a></li>
                     <li><a href="signout.php">Đăng xuất</a></li>
+=======
+                    <li><a href="profile.php">My profile</a></li>
+                    <li><a href="mycourse.html">Khóa học đã tham gia</a></li>
+                    <li><a href="/DoAnWeb/homepage.html">Đăng xuất</a></li>
+>>>>>>> edd0d01e1ba29db462085782fc4c1902656774fd
                 </ul>
             </div>
               </div>
         </div>
     </header>
+<<<<<<< HEAD
 
     <!-- Hiển thị thông tin cá nhân -->
     <div class="noidung">
         <div class="container">
           <form action="" id="formDemo" style="margin-left: 30%;">
+=======
+    <div class="noidung">
+        <div class="container">
+          <form action="signup.php" id="formDemo" style="margin-left: 30%;">
+>>>>>>> edd0d01e1ba29db462085782fc4c1902656774fd
             <h1>
               THÔNG TIN CÁ NHÂN
             </h1>
             <div style="display: inline-block; margin-left: 10%;" >
+<<<<<<< HEAD
               
               <label>Tên</label><br>
               <input name="name" type="text" value="<?php echo $_SESSION['name']; ?>">
@@ -117,6 +144,107 @@ if (!isset($_SESSION['username'])) {
             <div style="margin-left: 10%;">
             <a href="signout.php">Logout</a>
             </div>
+=======
+              <label>Tên đăng nhập</label><br>
+              <input name="username" type="text" value="nhonnhon" READONLY><br>
+              
+              <label>Tên</label><br>
+              <input name="name" type="text" value="Nguyen Nhon">
+              <br>
+              <label>Số điện thoại</label><br>
+              <input name="phonenum" type="text" value="0999999999">
+              <br>
+    
+              <label>Email</label><br>
+              <input name="email" type="text" value="nhon1234@gmail.com">
+              <br>
+    
+              <label>Mật khẩu</label><br>
+              <input id="password" name="password" type="password" value="123456789">
+    
+              <br>
+              <label>Nhập lại mật khẩu</label><br>
+              <input id="repassword" name="repassword" type="password">
+    
+              <br>
+              <label>Thông tin thêm</label><br>
+              <input style="margin-bottom: 20pt;" name="more" type="text" value="Nhondeptrai"><br>
+    
+            </div>
+            <div style="margin-left: 10%;">
+              <button id="btn" onclick="clicking">Gửi</button>
+            </div>
+            <script src="http://code.jquery.com/jquery-3.4.1.min.js"
+              integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+            <script type="text/javascript"
+              src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+    
+            <script type="text/javascript">
+              $(document).ready(function () {
+                $("#formDemo").validate({
+                  rules: {
+                    username: {
+                      required: true,
+                      minlength: 5
+                    },
+                    name: {
+                      required: true,
+                      minlength: 1
+                    },
+                    phonenum: {
+                      required: true,
+                      minlength: 10,
+                      maxlength: 11
+                    },
+                    email: {
+                      required: true,
+                      email: true
+                    },
+                    word: {
+                      required: true,
+                      minlength: 5
+                    },
+    
+                    repassword: {
+                      required: true,
+                      minlength: 5,
+                      equalTo: password
+                    },
+                  },
+                  messages: {
+                    username: {
+    
+                      required: "Vui lòng nhập tên đăng nhập!",
+                      minlength: "User name quá ngắn"
+                    },
+                    username: {
+    
+                      required: "Vui lòng nhập tên!",
+                      minlength: "Tên quá ngắn"
+                    },
+                    phonenum: {
+                      required: "Vui lòng nhập số điện thoại",
+                      minlength: "Số máy quý khách vừa nhập không có thực",
+                      maxlength: "Số máy quý khách vừa nhập không có thực",
+                    },
+                    email: {
+                      required: "Vui lòng nhập vào email",
+                      email: "Nhập đúng định dạng email"
+                    },
+                    password: {
+                      required: "Vui lòng nhập mật khẩu!",
+                      minlength: "Vui lòng nhập ít nhất 5 kí tự",
+    
+                    },
+                    repass: {
+                      required: "Vui lòng nhập lại mật khẩu",
+                      equalTo: "Mật khấu không trùng",
+                    }
+                  }
+                });
+              });
+            </script>
+>>>>>>> edd0d01e1ba29db462085782fc4c1902656774fd
           </form>
         </div>
     <style>
@@ -177,6 +305,10 @@ if (!isset($_SESSION['username'])) {
     </div>
     </body>
     
+<<<<<<< HEAD
 </html>
 
 
+=======
+    </html>
+>>>>>>> edd0d01e1ba29db462085782fc4c1902656774fd

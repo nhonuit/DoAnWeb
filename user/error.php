@@ -53,7 +53,7 @@
                     aria-label="Search">
             </form>
             <div class="action">
-                <div style="display: inline-block;">
+                <div style="display: flex;">
             <div class="profile" onclick="menutoggle();">
                     <img src="./image/icon_robot2.png">
                    

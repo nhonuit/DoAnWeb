@@ -101,7 +101,7 @@
             </h2>
             <textarea name="" class="commentbox" placeholder="Vui lòng bình luận về chất lượng khóa học"></textarea>
         </div>
-        <div class="user_img">
+        <div class="user_img" style="display: flex;">
            
 
         
